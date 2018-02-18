@@ -1,0 +1,22 @@
+---
+title: EXCEL函数vlookupR语言实现方法
+author: 刘学军
+date: '2018-02-18'
+slug: excel函数vlookupr语言实现方法
+categories: ["编程"]
+tags: ["R语言","EXCEL","vlookup"]
+autoThumbnailImage: false
+thumbnailImagePosition: "left"
+thumbnailImage: img/2018021801.jpg
+coverImage: /img/2018021801.jpg
+metaAlignment: center
+---
+
+什么是Netlify？
+
+Netlify是一个现代网站自动化系统，其JAM架构代表了现代网站的发展趋势。所谓JAM，就是指基于客户端JavaScript、可重用API和预构建Markup标记语言的三者结合。
+
+
+
+有了Netlify，我们只要在本机Git中写前端代码，然后推送它，网站就能完美地对外呈现，并且附送大量好功能：全球CDN、持续部署、一键HTTPS和更多…
+

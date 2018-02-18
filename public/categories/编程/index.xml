@@ -6,6 +6,8 @@
     <description>Recent content in 编程 on 劉學軍</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <managingEditor>zhrchj@126.com (刘学军)</managingEditor>
+    <webMaster>zhrchj@126.com (刘学军)</webMaster>
     <lastBuildDate>Sun, 18 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
@@ -15,7 +17,7 @@
       <title>EXCEL函数vlookupR语言实现方法</title>
       <link>/2018/02/excel%E5%87%BD%E6%95%B0vlookupr%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
-      
+      <author>zhrchj@126.com (刘学军)</author>
       <guid>/2018/02/excel%E5%87%BD%E6%95%B0vlookupr%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95/</guid>
       <description>什么是Netlify？
 Netlify是一个现代网站自动化系统，其JAM架构代表了现代网站的发展趋势。所谓JAM，就是指基于客户端JavaScript、可重用API和预构建Markup标记语言的三者结合。

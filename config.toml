@@ -17,7 +17,7 @@ languageCode = "en-us"
 defaultContentLanguage = "zh-cn"
 title = "劉學軍"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hugo-tranquilpeak-theme"
+disqusShortname = "刘学军"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
@@ -36,6 +36,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   bio = "凡心所向，素履可往"
   job = "Bank Officer"
   location = "China"
+  email = "zhrchj@126.com"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "zhrchj@126.com"
   # Your profile picture
@@ -190,21 +191,21 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # If you wanna add a sharing option, read user documentation :
   # Tranquilpeak configuration > Theme configuration > sharing-options
   
-  [[params.sharingOptions]]
-    name = "Google+"
-    icon = "fa-google-plus"
-    url = "https://plus.google.com/share?url=%s"
+  #[[params.sharingOptions]]
+    #name = "Google+"
+    #icon = "fa-google-plus"
+    #url = "https://plus.google.com/share?url=%s"
     
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fa-facebook-official"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
+  #[[params.sharingOptions]]
+    #name = "Facebook"
+    #icon = "fa-facebook-official"
+    #url = "https://www.facebook.com/sharer/sharer.php?u=%s"
   
   
-  [[params.sharingOptions]]
-    name = "新浪微博"
-    icon = "fa-weibo"
-    url = "http://service.weibo.com/share/share.php?url=https://liuxuejun.netlify.com/"
+  #[[params.sharingOptions]]
+   # name = "新浪微博"
+    #icon = "fa-weibo"
+    #url = "http://service.weibo.com/share/share.php?url=%s"
 
   
 

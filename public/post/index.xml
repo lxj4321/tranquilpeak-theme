@@ -14,14 +14,20 @@
     
     
     <item>
-      <title>EXCEL函数vlookupR语言实现方法</title>
+      <title>EXCEL函数vlookup R语言实现方法</title>
       <link>/2018/02/excel%E5%87%BD%E6%95%B0vlookupr%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95/</link>
       <pubDate>Sun, 18 Feb 2018 00:00:00 +0000</pubDate>
       <author>zhrchj@126.com (刘学军)</author>
       <guid>/2018/02/excel%E5%87%BD%E6%95%B0vlookupr%E8%AF%AD%E8%A8%80%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95/</guid>
-      <description>什么是Netlify？
-Netlify是一个现代网站自动化系统，其JAM架构代表了现代网站的发展趋势。所谓JAM，就是指基于客户端JavaScript、可重用API和预构建Markup标记语言的三者结合。
-有了Netlify，我们只要在本机Git中写前端代码，然后推送它，网站就能完美地对外呈现，并且附送大量好功能：全球CDN、持续部署、一键HTTPS和更多…</description>
+      <description>vlookup是EXCEL中应用比较多的函数，可以连接两表数据，但在应用中存在明显缺陷：
+1.在处理一对多数据时只能返回第一个值，在数据多时难以一一查找。
+2.数据较大时处理速度较慢。
+3.查找值必须在数据表第一列。
+R语言在连接两表时更加灵活、快捷。下面用R包tidyverse来实现vlookup功能：
+首先加载tidyverse包。
+library(tidyverse) 1 存在一一对应关系的两张表 1.1 连接变量名一致 数据表准备：数据可以用readxl包1从EXCEL表中导入，也可以在R中直接输入,代码如下：
+&amp;quot;雇员1&amp;quot; &amp;lt;- tibble( &amp;quot;编码&amp;quot;=c(&amp;quot;01001&amp;quot;,&amp;quot;01005&amp;quot;,&amp;quot;01009&amp;quot;,&amp;quot;01025&amp;quot;), &amp;quot;姓名&amp;quot;=c(&amp;quot;张三&amp;quot;,&amp;quot;李四&amp;quot;,&amp;quot;王五&amp;quot;,&amp;quot;赵六&amp;quot;)) &amp;quot;人员信息1&amp;quot; &amp;lt;- tibble( &amp;quot;编码&amp;quot;=c(&amp;quot;01001&amp;quot;,&amp;quot;01005&amp;quot;,&amp;quot;01009&amp;quot;,&amp;quot;01025&amp;quot;), &amp;quot;工资&amp;quot;=c(4500,5200,7000,7800), &amp;quot;部门&amp;quot;=c(&amp;quot;管理部&amp;quot;,&amp;quot;技术部&amp;quot;,&amp;quot;财务部&amp;quot;,&amp;quot;财务部&amp;quot;)) 数据表见表1,表2
+ Table 1: 数据表1  编码 姓名    01001 张三  01005 李四  01009 王五  01025 赵六     Table 2: 数据表2  编码 工资 部门    01001 4500 管理部  01005 5200 技术部  01009 7000 财务部  01025 7800 财务部    连接两表：通过函数left_join(x, y, by = NULL, copy = FALSE, suffix = c(&amp;quot;.</description>
     </item>
     
   </channel>

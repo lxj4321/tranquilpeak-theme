@@ -191,7 +191,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # If you wanna add a sharing option, read user documentation :
   # Tranquilpeak configuration > Theme configuration > sharing-options
   
-  #[[params.sharingOptions]]
+  ##[[params.sharingOptions]]
     #name = "Google+"
     #icon = "fa-google-plus"
     #url = "https://plus.google.com/share?url=%s"
